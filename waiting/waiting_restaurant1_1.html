@@ -1,18 +1,20 @@
 <!DOCTYPE html> 
 <html> 
-<head> 
-	<meta charset="UTF-8">
-	<title>Test</title> 
+	<head>
+  <meta charset="UTF-8">	
+	<title>Shan & Chris</title> 
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-	<link rel="stylesheet" href="css/jquery.mobile.structure-1.0.1.css" />
-	<link rel="apple-touch-icon" href="images/launch_icon_57.jpg" />
-	<link rel="apple-touch-icon" sizes="72x72" href="images/launch_icon_72.jpg" />
-	<link rel="apple-touch-icon" sizes="114x114" href="images/launch_icon_114.jpg" />
-	<link rel="stylesheet" href="css/jquery.mobile-1.0.1.css" />
-	<link rel="stylesheet" href="css/custom.css" />
+	<link rel="stylesheet" href="jquery.mobile.structure-1.0.1.css" />
+	<link rel="apple-touch-icon" href="images/launch_icon_57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="images/launch_icon_72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="images/launch_icon_114.png" />
+	<link rel="stylesheet" href="jquery.mobile-1.0.1.css" />
+	<link rel="stylesheet" href="custom.css" />
 	<script src="js/jquery-1.7.1.min.js"></script>
 	<script src="js/jquery.mobile-1.0.1.min.js"></script>
 </head> 
+
 <body> 
 <div id="restau" data-role="page" data-add-back-btn="true">
 	
@@ -27,20 +29,21 @@
 			<p><img src="images/restaurant1_1.jpg" alt="jeannette photo"/></p>
 		</div>		
 		<div class="ui-block-b">
+			<p><img src="images/restaurant1_1.jpg" alt="jeannette photo"/></p>
 			<!-- <p><img src="images/menu1.jpg" alt="jeannette photo"/></p> -->
-			<h1> 菜單 </h1>
+			<!-- <h1> 菜單 </h1> -->
 			<!-- <p> 菜單: </p> -->
 			<!-- <ul>  -->
-			<table border="1">
-          　	<tr>
-          　	<td>這裡是第一行的第一個欄位</td>
-          　	<td>這裡是第一行的第二個欄位</td>
-          　	</tr>
-          　	<tr>
-          　	<td>這裡是第二行的第一個欄位</td>
-          　	<td>這裡是第二行的第二個欄位</td>
-          　	</tr>
-			</table>	
+			<!-- <table border="1"> -->
+          <!-- 　	<tr> -->
+          <!-- 　	<td>這裡是第一行的第一個欄位</td> -->
+          <!-- 　	<td>這裡是第一行的第二個欄位</td> -->
+          <!-- 　	</tr> -->
+          <!-- 　	<tr> -->
+          <!-- 　	<td>這裡是第二行的第一個欄位</td> -->
+          <!-- 　	<td>這裡是第二行的第二個欄位</td> -->
+          <!-- 　	</tr> -->
+			<!-- </table>	 -->
 			<!-- </ul>			 -->
 		</div>
 	</div><!-- /grid-a -->
@@ -62,6 +65,7 @@
 		</div>
 	</div><!-- /grid-a -->
 	<div id="contact_buttons">
+		<a href="" data-role="button" data-icon="menu"> 菜單 </a> 	
 		<a href="https://www.google.com/maps/place/%E4%B8%BC%E9%A3%AF%E5%BA%97/@25.0312313,121.5444773,15z/data=!4m8!1m2!2m1!1z5Li86aOv5bqX!3m4!1s0x3442abcc8eeae199:0xe49f737ce64bdab6!8m2!3d25.0312313!4d121.553232" data-role="button" data-icon="maps"> 路線導航 </a> 	
 		<a href="tel:0227045606"  data-role="button" data-icon="tel"> 打電話 </a>
 	</div>	
@@ -100,9 +104,13 @@
 	</script>
 	
 
+
 	</div>
-
-
-</div><!-- /page -->
+	<div data-role="content">
+		<p>
+			<a href="waiting_choose_restaurant1.html" data-role="button" data-inline="true"> Back </a>
+			<a href="../index.html" data-role="button" data-inline="true"> Home </a>                
+		</p>
+	</div>	
 </body>
 </html>
