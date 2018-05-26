@@ -22,7 +22,7 @@ background-color:rgb(136, 111, 110);
 #contact_buttons .ui-btn-corner-all,
 #notation .ui-btn-corner-all{
 border-radius:0.2em;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 
 .ui-btn-active {
@@ -41,7 +41,7 @@ font-family: "標楷體";
 .ui-btn-down-c a.ui-link-inherit,
 #home .ui-btn-down-c a.ui-link-inherit{
 color:#fff !important;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 
 img{
@@ -55,7 +55,7 @@ box-sizing: border-box;
 .ui-grid-a .ui-block-a, .ui-grid-a .ui-block-b {
     width: 48%;
     padding:1%;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 
 
@@ -74,23 +74,23 @@ background:url(images/header_logo.png) no-repeat 69% 5px ;
 height:33px;
 padding:5px 0 5px 50px;
 margin:0px;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 
 .ui-header  .ui-btn-up-a  {
 background:rgba(255, 255, 255, 0.1);
 box-shadow:none;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 
 .ui-header  .ui-btn-hover-a {
 background:rgba(0, 0, 0, 0.3);
 box-shadow:none;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 
 .jump_button a{
-font-family: "標楷體";	
+font-family: "微軟正黑體";
 }
 
 
@@ -114,21 +114,21 @@ font-weight:normal;
 font-style:normal;
 padding:5px 0 6px 50px;
 background:url(images/pagination.png) no-repeat;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 
 #home .choice_list h1{
 background-position: 0 -16px;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 #home .choice_list  h3{
 padding-top:10px;
 color:rgb(63, 41, 39);
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 #home .choice_list .ui-btn-active  a.ui-link-inherit h3{
 color:#fff;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 .choice_list  img{
 padding:3px;
@@ -139,16 +139,16 @@ padding:3px;
 #choisir_ville .choice_list h1{
 background-position: 0 -72px;
 margin-bottom:20px;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 #choisir_ville .choice_list a{
 padding-top:10px;
 color:rgb(63, 41, 39);
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 #choisir_ville .ui-listview-filter a{
 padding-top:0px;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 
 
@@ -156,12 +156,12 @@ font-family: "標楷體";
 #choisir_restau .choice_list h1{
 background-position: 0 -132px;
 margin:10px auto 20px auto;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 #choisir_restau .choice_list a{
 padding-top:10px;
 color:rgb(63, 41, 39);
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 
 #choisir_restau .classement{
@@ -196,7 +196,7 @@ width:99px;
 #contact_infos {
 color:rgb(63, 41, 39);
 font-size:14px;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 #restau_infos h1,
 #contact_infos h2,
@@ -204,37 +204,37 @@ font-family: "標楷體";
 color:rgb(63, 41, 39);
 font-size:18px;
 margin:0 auto 5px auto;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 
 #restau_infos p,
 #restau_infos ul,
 #contact_infos p{
 margin:2px auto 5px auto;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 #restau_infos ul{
 padding:0 0 0 10px;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 #restau_infos ul  li{
 list-style-type:square;
 margin-left:5px;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 
 #restau_infos .ui-block-b .ui-btn {
 font-size:12px;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 #restau_infos .ui-block-b .ui-btn-inner{
 padding:5px;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 
 #contact_buttons a{
 color:rgb(63, 41, 39);
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 
 .ui-icon-maps {
@@ -252,12 +252,12 @@ position:relative;
 
 #note_utilisateur-button span.ui-btn-text{
 background:url(images/pagination.png) no-repeat;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 } 
 
 #note_utilisateur-button span.ui-btn-inner{
 	padding-left:5px;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 } 
 
 #note_utilisateur-menu li a:before{
@@ -272,22 +272,22 @@ left:0px;
 .one #note_utilisateur-button span.ui-btn-text,
 #note_utilisateur-menu li a:before{
 background-position: -75px -182px;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 .two #note_utilisateur-button span.ui-btn-text,
 #note_utilisateur-menu li + li a:before{
 background-position: -52px -182px;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 .three #note_utilisateur-button span.ui-btn-text,
 #note_utilisateur-menu li + li +li a:before{
 background-position: -27px -182px;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 .four #note_utilisateur-button span.ui-btn-text,
 #note_utilisateur-menu li + li +li +li a:before{
 background-position: -2px -182px;
-font-family: "標楷體";
+font-family: "微軟正黑體";
 }
 
 
