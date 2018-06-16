@@ -1,0 +1,96 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+  <meta charset="UTF-8">	
+	<title>Shan & Chris</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="../../jquery.mobile.structure-1.0.1.css" />
+	<link rel="apple-touch-icon" href="../../images/launch_icon_57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="../../images/launch_icon_72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="../../images/launch_icon_114.png" />
+	<link rel="stylesheet" href="../../jquery.mobile-1.0.1.css" />
+	<link rel="stylesheet" href="../../custom.css" />
+	<script src="../../js/jquery-1.7.1.min.js"></script>
+	<script src="../../js/jquery.mobile-1.0.1.min.js"></script>
+</head> 
+
+<body> 
+<div id="restau" data-role="page">
+	
+	<div data-role="header"> 
+		<h1> Test</h1>
+	</div> 
+	
+	<div data-role="content">
+	<div class="ui-full" id="restau_infos">	
+		<p><img src="images/restaurant1.jpg" alt="jeannette photo"/></p>
+		<h1> 推薦 </h1>
+		<p> 藍莓鮮果 </p>
+	</div>
+	<hr/>
+	
+	<div class="ui-full" id="contact_infos">	
+		<h2> 營業時間 </h2>
+		<p> 一、三、四、五、日 </p>
+		<p> 14:00 - 21:00 <p>
+		<p> 六 </p>
+		<p> 12:00 - 21:00 <p>
+		<h2> 電話 </h2>
+		<p> 03-3317193 </p>
+		<h2> 地址 </h2>
+		<p> 桃園市光明街9號 </p>
+	</div>
+	<div id="contact_buttons">
+		<a href="images/menu1.jpg" target="_blank" data-role="button" data-icon="maps"> 菜單 </a> 	
+		<a href="https://www.google.com/maps/place/Miss+Sandy's+%E8%9C%9C%E7%B5%B2%E8%92%82%E6%89%8B%E5%B7%A5%E7%83%98%E7%84%99%E5%B0%8F%E8%88%96/@25.001835,121.3082958,17z/data=!3m1!4b1!4m5!3m4!1s0x34681e556e122d35:0xaead4406b36571a9!8m2!3d25.001835!4d121.3104845" data-role="button" data-icon="maps"> 路線導航 </a> 	
+		<a href="tel:033317193"  data-role="button" data-icon="tel"> 打電話 </a>
+	</div>	
+	<hr/>
+	
+	<!-- <div id="notation">	 -->
+	<!-- <form> -->
+	<!-- <label for="select-choice-0" class="select"><h2> User rating </h2></label> -->
+		<!-- <select name="note_utilisateur" id="note_utilisateur" data-native-menu="false" data-theme="c" > -->
+		   <!-- <option value="one" class="one"> Not good at all </option> -->
+		   <!-- <option value="two" class="two">Average </option> -->
+		   <!-- <option value="three" class="three">Pretty good </option> -->
+		   <!-- <option value="four" class="four"> Excellent </option> -->
+		<!-- </select>	 -->
+	<!-- </form> -->
+	<!-- </div> -->
+
+
+	<script type="text/javascript">
+
+	$( '#restau' ).live( 'pageinit',function(event){
+		var SelectedOptionClass = $('option:selected').attr('class');
+		$('div.ui-select').addClass(SelectedOptionClass);
+		
+		$('#note_utilisateur').live('change', function(){	 
+			$('div.ui-select').removeClass(SelectedOptionClass);
+			
+			SelectedOptionClass = $('option:selected').attr('class');
+			$('div.ui-select').addClass(SelectedOptionClass);		
+			
+		 });
+		
+	  
+	});
+
+	</script>
+	
+
+
+	</div>
+
+	<div class="jump_button">
+	<div data-role="content">
+		<p>
+			<a href="dessert_choose_restaurant.html" data-role="button" data-inline="true"> 換一間 </a>
+			<a href="../index_taoyuan.html"          data-role="button" data-inline="true"> 換種類 </a>                
+		</p>
+	</div>	
+	</div>	
+</body>
+</html>
