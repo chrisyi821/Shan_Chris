@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+  <meta charset="UTF-8">	
+	<title>Shan & Chris</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="../../jquery.mobile.structure-1.0.1.css" />
+	<link rel="apple-touch-icon" href="../../images/launch_icon_57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="../../images/launch_icon_72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="../../images/launch_icon_114.png" />
+	<link rel="stylesheet" href="../../jquery.mobile-1.0.1.css" />
+	<link rel="stylesheet" href="../../custom.css" />
+	<script src="../../js/jquery-1.7.1.min.js"></script>
+	<script src="../../js/jquery.mobile-1.0.1.min.js"></script>
+</head> 
+
+<body> 
+<div id="restau" data-role="page">
+	
+	<div data-role="header"> 
+		<h1> Test</h1>
+	</div> 
+	
+	<div data-role="content">
+	<div class="ui-full" id="restau_infos">	
+		<p><img src="images/restaurant1.jpg" alt="jeannette photo"/></p>
+		<h1> 推薦 </h1>
+		<p> 京都抹茶塔、千層蘋果酥、萊姆黃 </p>
+	</div>
+	<hr/>
+	
+	<div class="ui-full" id="contact_infos">	
+		<h2> 營業時間 </h2>
+		<p> 一、三、四、五、六、日 </p>
+		<p> 11:00 - 19:00 </p>
+		<h2> 電話 </h2>
+		<p> 05-5345499 </p>
+		<h2> 地址 </h2>
+		<p> 雲林縣斗六市南興街17號 </p>
+	</div>
+	<div id="contact_buttons">
+		<a href="images/menu1.jpg" target="_blank" data-role="button" data-icon="maps"> 菜單 </a> 	
+		<a href="https://www.google.com.tw/maps/place/%E6%B3%95%E7%B1%B3%E6%B3%95%E5%BC%8F%E7%94%9C%E9%BB%9E+La+Famille+%E7%B8%BD%E5%BA%97/@23.7038203,120.3983569,11z/data=!4m8!1m2!2m1!1z5rOV57Gz5rOV5byP55Sc6bue!3m4!1s0x346ec822c664e6b3:0xd33dbcce5108e22f!8m2!3d23.7038203!4d120.5384326?hl=zh-TW&authuser=0" data-role="button" data-icon="maps"> 路線導航 </a> 	
+		<a href="tel:055345499"  data-role="button" data-icon="tel"> 打電話 </a>
+	</div>	
+	<hr/>
+	
+	<!-- <div id="notation">	 -->
+	<!-- <form> -->
+	<!-- <label for="select-choice-0" class="select"><h2> User rating </h2></label> -->
+		<!-- <select name="note_utilisateur" id="note_utilisateur" data-native-menu="false" data-theme="c" > -->
+		   <!-- <option value="one" class="one"> Not good at all </option> -->
+		   <!-- <option value="two" class="two">Average </option> -->
+		   <!-- <option value="three" class="three">Pretty good </option> -->
+		   <!-- <option value="four" class="four"> Excellent </option> -->
+		<!-- </select>	 -->
+	<!-- </form> -->
+	<!-- </div> -->
+
+
+	<script type="text/javascript">
+
+	$( '#restau' ).live( 'pageinit',function(event){
+		var SelectedOptionClass = $('option:selected').attr('class');
+		$('div.ui-select').addClass(SelectedOptionClass);
+		
+		$('#note_utilisateur').live('change', function(){	 
+			$('div.ui-select').removeClass(SelectedOptionClass);
+			
+			SelectedOptionClass = $('option:selected').attr('class');
+			$('div.ui-select').addClass(SelectedOptionClass);		
+			
+		 });
+		
+	  
+	});
+
+	</script>
+	
+
+
+	</div>
+
+	<div class="jump_button">
+	<div data-role="content">
+		<p>
+			<a href="dessert_choose_restaurant.html" data-role="button" data-inline="true"> 換一間 </a>
+			<a href="../index_yunlin.html"           data-role="button" data-inline="true"> 換種類 </a>                
+		</p>
+	</div>	
+	</div>	
+</body>
+</html>
